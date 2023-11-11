@@ -1,7 +1,7 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const rsvpButton = document.getElementById("rsvpButton");
+function submitForm() {
+  var nama = document.getElementById("nama").value;
+  var konfirmasi = document.getElementById("konfirmasi").value;
 
-  rsvpButton.addEventListener("click", function () {
-    alert("Terima kasih telah mengonfirmasi kehadiran Anda!");
-  });
-});
+  // Proses formulir atau kirim data ke server jika diperlukan
+  alert("Terima kasih, " + nama + "! Konfirmasi kehadiran Anda: " + konfirmasi);
+}
